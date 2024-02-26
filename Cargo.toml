@@ -7,7 +7,6 @@ edition = "2021"
 
 [dependencies]
 leptos = { version = "0.6.5", features = ["csr"] }
-serde = { version = "1", features = ["derive"] }
 wasm-bindgen = "0.2"
 web-sys = { version = "0.3.64", features = [
   'Document',
@@ -28,8 +27,6 @@ web-sys = { version = "0.3.64", features = [
   'console',
   'ContextAttributes2d',
 ] }
-js-sys = "0.3.64"
 
-console_log = { version = "1", features = ["color"] }
 wasm-bindgen-futures = "0.4.41"
 console_error_panic_hook = "0.1.7"
